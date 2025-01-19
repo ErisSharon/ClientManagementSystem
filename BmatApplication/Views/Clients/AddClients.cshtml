@@ -1,0 +1,58 @@
+﻿@model BmatApplication.Models.ClientsModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container mt-5">
+    <h2>Clients</h2>
+
+    <!-- Form to Add New Client -->
+    <form asp-action="Clients" asp-controller="ClientsController" method="post">
+        <div class="row g-3">
+            <div class="col-md-3">
+                <label asp-for="Name" class="form-label">Client Name</label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span> 
+            </div>
+            <div class="col-md-3">
+                <label asp-for="Product" class="form-label">Product</label>
+                <input asp-for="Product" class="form-control" />
+                <span asp-validation-for="Product" class="text-danger"></span> 
+            </div>
+            <div class="col-md-3">
+                <label asp-for="Country" class="form-label">Country</label>
+                <input asp-for="Country" class="form-control" />
+                <span asp-validation-for="Country" class="text-danger"></span> 
+            </div>
+            <div class="col-md-2">
+                <label asp-for="Status" class="form-label">Status</label>
+                <select asp-for="Status" class="form-select">
+                    <option value="">Select Status</option>
+                    <option value="Active">Active</option>
+                    <option value="Inactive">Inactive</option>
+                </select>
+                <span asp-validation-for="Status" class="text-danger"></span> <!-- Display validation error if any -->
+            </div>
+            <div class="col-md-1">
+                <button type="submit" class="btn btn-primary w-100">Add</button>
+            </div>
+        </div>
+    </form>
+
+    <!-- Display validation errors if any -->
+    <div>
+        <ul>
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <li class="text-danger">@error.ErrorMessage</li>
+            }
+        </ul>
+    </div>
+</div>
+
+
+
+    </div>
+    </html>

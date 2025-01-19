@@ -1,0 +1,115 @@
+﻿@{
+    Layout = null;
+}
+@model BmatApplication.Models.LoginModel
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 50%; /* Adjust as needed */
+            background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity */
+            z-index: 1;
+        }
+
+        .styled-login-image {
+            width: 100%;
+            height: 120%;
+            background-position: center;
+            background-size: cover;
+            border-radius: 0px; /* Add rounded corners */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+        }
+
+        .card{
+            position: absolute;
+            top: 50%; /* Position form vertically at 50% */
+            right: 50%; /* Position form horizontally at 50% */
+            transform: translate(-50%, -50%); /* Center the form by adjusting for the width and height of the form */
+            padding: 20px;
+            max-width: 800px;
+            background-color: rgba(255, 255, 255, 0.7); /* Optional: Add a semi-transparent background to the form for readability */
+            border-radius: 10px; /* Optional: Add rounded corners to the form */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-header {
+            background-color: #007bff;
+            color: white;
+            border-radius: 30px;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+            .btn-primary:hover {
+                background-color: #0056b3;
+            }
+
+        .form-control {
+            font-size: 1rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin-top: 160px;
+        }
+
+        .login-background {
+            background-image: url('~/Images/Login-image.jpg'); 
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="login-background">
+    <img src="https://media.istockphoto.com/id/1442675553/photo/businessman-scans-fingerprint-to-unlock-security-system-internet-storage-and-financial.jpg?s=612x612&w=0&k=20&c=vPmw3Jf2Lewy5USajY1IqiHUz1TiKBDxSKiciP2tBwo=" alt="Login Image" class="styled-login-image">
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <h3>Login</h3>
+                    </div>
+                    <div class="card-body">
+                        <form asp-action="Login" asp-controller="Accounts" method="post">
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" name="Email" asp-for="Email" placeholder="Enter your email" />
+                                <span class="text-danger" asp-validation-for="Email"></span>
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="password" name="Password" asp-for="Password" placeholder="Enter your password" />
+                                <span class="text-danger" asp-validation-for="Password"></span>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Login</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Validation Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation-unobtrusive@3.2.12/dist/jquery.validate.unobtrusive.min.js"></script>
+</body>
+</html>

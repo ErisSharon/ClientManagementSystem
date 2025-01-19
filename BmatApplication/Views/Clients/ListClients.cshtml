@@ -1,0 +1,46 @@
+﻿@model IEnumerable<BmatApplication.Models.ClientsModel>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <!-- Clients Table -->
+    <table class="table table-bordered table-striped">
+        <thead class="table-light">
+            <tr>
+                <th>Client ID</th>
+                <th>Name</th>
+                <th>Product</th>
+                <th>Country</th>
+                <th>Status</th>
+                <th>Manage</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                @foreach (var client in Model)
+                {
+                    <tr>
+                        <td>@client.ClientId</td>
+                        <td>@client.Name</td>
+                        <td>@client.Product</td>
+                        <td>@client.Country</td>
+                        <td>@(client.Status ? "Active" : "Inactive")</td>
+                        <td>
+                            <!-- Manage actions (e.g., Edit, Delete, etc.) -->
+                            <a href="@Url.Action("Edit", "Clients", new { id = client.ClientId })" class="btn btn-sm btn-primary">Edit</a>
+                            <a href="@Url.Action("Delete", "Clients", new { id = client.ClientId })" class="btn btn-sm btn-danger">Delete</a>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="6" class="text-center">No clients available</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

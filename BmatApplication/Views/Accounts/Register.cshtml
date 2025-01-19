@@ -1,0 +1,105 @@
+﻿@{
+    Layout = null;
+}
+
+
+@model BmatApplication.Models.RegisterModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="path-to-your-styles.css" /> <!-- Include your CSS file -->
+    <style>
+        /* Basic styling for the form */
+        .register-container {
+            width: 100%;
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+            .register-container h2 {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+
+            .register-container form {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            .register-container label {
+                margin-bottom: 5px;
+                font-weight: bold;
+            }
+
+            .register-container input
+            {
+        
+            display: block;
+            width: 100%; 
+            padding: 10px;
+            margin-bottom: 30px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+            .register-container button {
+                padding: 10px;
+                color: #fff;
+                background-color: #007bff;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+                .register-container button:hover {
+                    background-color: #0056b3;
+                }
+    </style>
+</head>
+<body>
+    <div class="register-container">
+        <img src="https://media.istockphoto.com/id/1442675553/photo/businessman-scans-fingerprint-to-unlock-security-system-internet-storage-and-financial.jpg?s=612x612&w=0&k=20&c=vPmw3Jf2Lewy5USajY1IqiHUz1TiKBDxSKiciP2tBwo=" alt="Register Image">
+        <h2>Register</h2>
+        <form asp-action="Register" asp-controller="Account" method="post">
+            <!-- Email -->
+            <div>
+                <label asp-for="Email"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <!-- Password -->
+            <div>
+                <label asp-for="Password"></label>
+                <input asp-for="Password" class="form-control" type="password" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <!-- Confirm Password -->
+            <div>
+                <label asp-for="ConfirmPassword"></label>
+                <input asp-for="ConfirmPassword" class="form-control" type="password" />
+                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    <!-- Include validation scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation-unobtrusive@3.2.12/jquery.validate.unobtrusive.min.js"></script>
+</body>
+</html>
