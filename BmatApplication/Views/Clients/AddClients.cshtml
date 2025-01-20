@@ -5,54 +5,52 @@
 }
 
 
-<div class="container mt-5">
-    <h2>Clients</h2>
-
-    <!-- Form to Add New Client -->
-    <form asp-action="Clients" asp-controller="ClientsController" method="post">
-        <div class="row g-3">
-            <div class="col-md-3">
-                <label asp-for="Name" class="form-label">Client Name</label>
-                <input asp-for="Name" class="form-control" />
-                <span asp-validation-for="Name" class="text-danger"></span> 
-            </div>
-            <div class="col-md-3">
-                <label asp-for="Product" class="form-label">Product</label>
-                <input asp-for="Product" class="form-control" />
-                <span asp-validation-for="Product" class="text-danger"></span> 
-            </div>
-            <div class="col-md-3">
-                <label asp-for="Country" class="form-label">Country</label>
-                <input asp-for="Country" class="form-control" />
-                <span asp-validation-for="Country" class="text-danger"></span> 
-            </div>
-            <div class="col-md-2">
-                <label asp-for="Status" class="form-label">Status</label>
-                <select asp-for="Status" class="form-select">
-                    <option value="">Select Status</option>
-                    <option value="Active">Active</option>
-                    <option value="Inactive">Inactive</option>
-                </select>
-                <span asp-validation-for="Status" class="text-danger"></span> <!-- Display validation error if any -->
-            </div>
-            <div class="col-md-1">
-                <button type="submit" class="btn btn-primary w-100">Add</button>
-            </div>
+<div class="container d-flex justify-content-center align-items-center" style="height: 80vh; overflow: hidden; margin-left: 250px;">
+    <div class="card shadow-lg rounded-lg border-primary" style="width: 100%; max-width: 600px;">
+        <div class="card-header bg-primary text-white">
+            <h4>Add Client</h4>
         </div>
-    </form>
+        <div class="card-body">
+            <form asp-action="Clients" asp-controller="ClientsController" method="post">
+                <div class="row g-3">
+                    <!-- Client Name -->
+                    <div class="col-12">
+                        <label asp-for="Name" class="form-label">Client Name</label>
+                        <input asp-for="Name" class="form-control" />
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
 
-    <!-- Display validation errors if any -->
-    <div>
-        <ul>
-            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
-            {
-                <li class="text-danger">@error.ErrorMessage</li>
-            }
-        </ul>
+                    <!-- Product -->
+                    <div class="col-12">
+                        <label asp-for="Product" class="form-label">Product</label>
+                        <input asp-for="Product" class="form-control" />
+                        <span asp-validation-for="Product" class="text-danger"></span>
+                    </div>
+
+                    <!-- Country -->
+                    <div class="col-12">
+                        <label asp-for="Country" class="form-label">Country</label>
+                        <input asp-for="Country" class="form-control" />
+                        <span asp-validation-for="Country" class="text-danger"></span>
+                    </div>
+
+                    <!-- Status -->
+                    <div class="col-12">
+                        <label asp-for="Status" class="form-label">Status</label>
+                        <select asp-for="Status" class="form-select">
+                            <option value="">Select Status</option>
+                            <option value="Active">Active</option>
+                            <option value="Inactive">Inactive</option>
+                        </select>
+                        <span asp-validation-for="Status" class="text-danger"></span>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="col-12 text-end">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
 </div>
-
-
-
-    </div>
-    </html>

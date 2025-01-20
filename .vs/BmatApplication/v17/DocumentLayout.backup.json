@@ -1,54 +1,98 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Sharon\\source\\repos\\BmatApplication\\",
+  "WorkspaceRootPath": "C:\\Users\\Sharon\\ClientManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|c:\\users\\sharon\\source\\repos\\bmatapplication\\bmatapplication\\bmatapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|solutionrelative:bmatapplication\\bmatapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|c:\\users\\sharon\\clientmanagementsystem\\bmatapplication\\views\\clients\\addclients.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|solutionrelative:bmatapplication\\views\\clients\\addclients.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|c:\\users\\sharon\\source\\repos\\bmatapplication\\bmatapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|solutionrelative:bmatapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|c:\\users\\sharon\\clientmanagementsystem\\bmatapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|solutionrelative:bmatapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|c:\\users\\sharon\\source\\repos\\bmatapplication\\bmatapplication\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|c:\\users\\sharon\\clientmanagementsystem\\bmatapplication\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|solutionrelative:bmatapplication\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sharon\\source\\repos\\BmatApplication\\BmatApplication\\Migrations\\20250117124739_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BmatApplication\\Migrations\\20250117124739_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|c:\\users\\sharon\\clientmanagementsystem\\bmatapplication\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|solutionrelative:bmatapplication\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|c:\\users\\sharon\\source\\repos\\bmatapplication\\bmatapplication\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|c:\\users\\sharon\\clientmanagementsystem\\bmatapplication\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|solutionrelative:bmatapplication\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|c:\\users\\sharon\\source\\repos\\bmatapplication\\bmatapplication\\models\\clientsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|c:\\users\\sharon\\clientmanagementsystem\\bmatapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|solutionrelative:bmatapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|c:\\users\\sharon\\clientmanagementsystem\\bmatapplication\\models\\clientsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|solutionrelative:bmatapplication\\models\\clientsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|c:\\users\\sharon\\source\\repos\\bmatapplication\\bmatapplication\\views\\accounts\\clients.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|solutionrelative:bmatapplication\\views\\accounts\\clients.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|c:\\users\\sharon\\source\\repos\\bmatapplication\\bmatapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|solutionrelative:bmatapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|c:\\users\\sharon\\source\\repos\\bmatapplication\\bmatapplication\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|solutionrelative:bmatapplication\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|c:\\users\\sharon\\source\\repos\\bmatapplication\\bmatapplication\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|solutionrelative:bmatapplication\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|c:\\users\\sharon\\source\\repos\\bmatapplication\\bmatapplication\\views\\accounts\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|c:\\users\\sharon\\clientmanagementsystem\\bmatapplication\\views\\accounts\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|solutionrelative:bmatapplication\\views\\accounts\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|c:\\users\\sharon\\source\\repos\\bmatapplication\\bmatapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|c:\\users\\sharon\\clientmanagementsystem\\bmatapplication\\views\\accounts\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|solutionrelative:bmatapplication\\views\\accounts\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|c:\\users\\sharon\\clientmanagementsystem\\bmatapplication\\views\\clients\\listclients.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|solutionrelative:bmatapplication\\views\\clients\\listclients.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|c:\\users\\sharon\\clientmanagementsystem\\bmatapplication\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|solutionrelative:bmatapplication\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|c:\\users\\sharon\\clientmanagementsystem\\bmatapplication\\viewmodels\\clientsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|solutionrelative:bmatapplication\\viewmodels\\clientsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|c:\\users\\sharon\\clientmanagementsystem\\bmatapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|solutionrelative:bmatapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|c:\\users\\sharon\\clientmanagementsystem\\bmatapplication\\viewmodels\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|solutionrelative:bmatapplication\\viewmodels\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|c:\\users\\sharon\\clientmanagementsystem\\bmatapplication\\bmatapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|solutionrelative:bmatapplication\\bmatapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|c:\\users\\sharon\\clientmanagementsystem\\bmatapplication\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|solutionrelative:bmatapplication\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|c:\\users\\sharon\\clientmanagementsystem\\bmatapplication\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|solutionrelative:bmatapplication\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|c:\\users\\sharon\\clientmanagementsystem\\bmatapplication\\migrations\\20250118092839_updateclientsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|solutionrelative:bmatapplication\\migrations\\20250118092839_updateclientsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|c:\\users\\sharon\\clientmanagementsystem\\bmatapplication\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|solutionrelative:bmatapplication\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|c:\\users\\sharon\\clientmanagementsystem\\bmatapplication\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|solutionrelative:bmatapplication\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|c:\\users\\sharon\\clientmanagementsystem\\bmatapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|solutionrelative:bmatapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|c:\\users\\sharon\\clientmanagementsystem\\bmatapplication\\migrations\\20250117220657_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|solutionrelative:bmatapplication\\migrations\\20250117220657_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|c:\\users\\sharon\\clientmanagementsystem\\bmatapplication\\migrations\\20250118093625_updateclientsmodel1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEE34562-5F76-4F97-9BE4-3F5270FECE91}|BmatApplication\\BmatApplication.csproj|solutionrelative:bmatapplication\\migrations\\20250118093625_updateclientsmodel1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,30 +102,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "20250117124739_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Sharon\\source\\repos\\BmatApplication\\BmatApplication\\Migrations\\20250117124739_InitialCreate.cs",
-              "RelativeDocumentMoniker": "BmatApplication\\Migrations\\20250117124739_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\Sharon\\source\\repos\\BmatApplication\\BmatApplication\\Migrations\\20250117124739_InitialCreate.cs",
-              "RelativeToolTip": "BmatApplication\\Migrations\\20250117124739_InitialCreate.cs",
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "BmatApplication\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "BmatApplication\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T12:47:40.175Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-20T07:40:39.275Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\Views\\Accounts\\Login.cshtml",
+              "RelativeDocumentMoniker": "BmatApplication\\Views\\Accounts\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\Views\\Accounts\\Login.cshtml",
+              "RelativeToolTip": "BmatApplication\\Views\\Accounts\\Login.cshtml",
+              "ViewState": "AgIAAAQAAAAAzczMzMwXwFUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T06:58:28.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddClients.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\Views\\Clients\\AddClients.cshtml",
+              "RelativeDocumentMoniker": "BmatApplication\\Views\\Clients\\AddClients.cshtml",
+              "ToolTip": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\Views\\Clients\\AddClients.cshtml",
+              "RelativeToolTip": "BmatApplication\\Views\\Clients\\AddClients.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-17T08:03:49.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ClientsModel.cs",
+              "DocumentMoniker": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\Models\\ClientsModel.cs",
+              "RelativeDocumentMoniker": "BmatApplication\\Models\\ClientsModel.cs",
+              "ToolTip": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\Models\\ClientsModel.cs",
+              "RelativeToolTip": "BmatApplication\\Models\\ClientsModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T08:01:25.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Sharon\\source\\repos\\BmatApplication\\BmatApplication\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\appsettings.json",
               "RelativeDocumentMoniker": "BmatApplication\\appsettings.json",
-              "ToolTip": "C:\\Users\\Sharon\\source\\repos\\BmatApplication\\BmatApplication\\appsettings.json",
+              "ToolTip": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\appsettings.json",
               "RelativeToolTip": "BmatApplication\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAACnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-01-17T09:07:07.644Z",
               "EditorCaption": ""
@@ -90,131 +173,222 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Sharon\\source\\repos\\BmatApplication\\BmatApplication\\Data\\ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "BmatApplication\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Sharon\\source\\repos\\BmatApplication\\BmatApplication\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "BmatApplication\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-17T09:02:33.043Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Clients.cshtml",
-              "DocumentMoniker": "C:\\Users\\Sharon\\source\\repos\\BmatApplication\\BmatApplication\\Views\\Accounts\\Clients.cshtml",
-              "RelativeDocumentMoniker": "BmatApplication\\Views\\Accounts\\Clients.cshtml",
-              "ToolTip": "C:\\Users\\Sharon\\source\\repos\\BmatApplication\\BmatApplication\\Views\\Accounts\\Clients.cshtml",
-              "RelativeToolTip": "BmatApplication\\Views\\Accounts\\Clients.cshtml",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAUwBMAAAAjAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BmatApplication\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BmatApplication\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAIQAAAAAlJmZmZkuwJwAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-17T08:03:49.614Z",
+              "WhenOpened": "2025-01-17T22:17:17.279Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ClientsModel.cs",
-              "DocumentMoniker": "C:\\Users\\Sharon\\source\\repos\\BmatApplication\\BmatApplication\\Models\\ClientsModel.cs",
-              "RelativeDocumentMoniker": "BmatApplication\\Models\\ClientsModel.cs",
-              "ToolTip": "C:\\Users\\Sharon\\source\\repos\\BmatApplication\\BmatApplication\\Models\\ClientsModel.cs",
-              "RelativeToolTip": "BmatApplication\\Models\\ClientsModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "20250118092839_UpdateClientsModel.cs",
+              "DocumentMoniker": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\Migrations\\20250118092839_UpdateClientsModel.cs",
+              "RelativeDocumentMoniker": "BmatApplication\\Migrations\\20250118092839_UpdateClientsModel.cs",
+              "ToolTip": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\Migrations\\20250118092839_UpdateClientsModel.cs",
+              "RelativeToolTip": "BmatApplication\\Migrations\\20250118092839_UpdateClientsModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T08:01:25.834Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BmatApplication.csproj",
-              "DocumentMoniker": "C:\\Users\\Sharon\\source\\repos\\BmatApplication\\BmatApplication\\BmatApplication.csproj",
-              "RelativeDocumentMoniker": "BmatApplication\\BmatApplication.csproj",
-              "ToolTip": "C:\\Users\\Sharon\\source\\repos\\BmatApplication\\BmatApplication\\BmatApplication.csproj",
-              "RelativeToolTip": "BmatApplication\\BmatApplication.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-17T08:53:53.703Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Sharon\\source\\repos\\BmatApplication\\BmatApplication\\Program.cs",
-              "RelativeDocumentMoniker": "BmatApplication\\Program.cs",
-              "ToolTip": "C:\\Users\\Sharon\\source\\repos\\BmatApplication\\BmatApplication\\Program.cs",
-              "RelativeToolTip": "BmatApplication\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T07:02:27.771Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T09:28:39.594Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "ClientsController.cs",
-              "DocumentMoniker": "C:\\Users\\Sharon\\source\\repos\\BmatApplication\\BmatApplication\\Controllers\\ClientsController.cs",
+              "DocumentMoniker": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\Controllers\\ClientsController.cs",
               "RelativeDocumentMoniker": "BmatApplication\\Controllers\\ClientsController.cs",
-              "ToolTip": "C:\\Users\\Sharon\\source\\repos\\BmatApplication\\BmatApplication\\Controllers\\ClientsController.cs",
+              "ToolTip": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\Controllers\\ClientsController.cs",
               "RelativeToolTip": "BmatApplication\\Controllers\\ClientsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABxAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAIMzMzMzMnwA8AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-17T08:02:49.839Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LoginModel.cs",
-              "DocumentMoniker": "C:\\Users\\Sharon\\source\\repos\\BmatApplication\\BmatApplication\\Models\\LoginModel.cs",
-              "RelativeDocumentMoniker": "BmatApplication\\Models\\LoginModel.cs",
-              "ToolTip": "C:\\Users\\Sharon\\source\\repos\\BmatApplication\\BmatApplication\\Models\\LoginModel.cs",
-              "RelativeToolTip": "BmatApplication\\Models\\LoginModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 22,
+              "Title": "20250118093625_UpdateClientsModel1.cs",
+              "DocumentMoniker": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\Migrations\\20250118093625_UpdateClientsModel1.cs",
+              "RelativeDocumentMoniker": "BmatApplication\\Migrations\\20250118093625_UpdateClientsModel1.cs",
+              "ToolTip": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\Migrations\\20250118093625_UpdateClientsModel1.cs",
+              "RelativeToolTip": "BmatApplication\\Migrations\\20250118093625_UpdateClientsModel1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T07:15:06.177Z",
+              "WhenOpened": "2025-01-18T09:36:25.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\Views\\Accounts\\Register.cshtml",
+              "RelativeDocumentMoniker": "BmatApplication\\Views\\Accounts\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\Views\\Accounts\\Register.cshtml",
+              "RelativeToolTip": "BmatApplication\\Views\\Accounts\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAzszMzMwHwEYAAAD2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-18T11:43:50.03Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RegisterModel.cs",
+              "DocumentMoniker": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\Models\\RegisterModel.cs",
+              "RelativeDocumentMoniker": "BmatApplication\\Models\\RegisterModel.cs",
+              "ToolTip": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\Models\\RegisterModel.cs",
+              "RelativeToolTip": "BmatApplication\\Models\\RegisterModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T11:46:08.559Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "AccountsController.cs",
-              "DocumentMoniker": "C:\\Users\\Sharon\\source\\repos\\BmatApplication\\BmatApplication\\Controllers\\AccountsController.cs",
-              "RelativeDocumentMoniker": "BmatApplication\\Controllers\\AccountsController.cs",
-              "ToolTip": "C:\\Users\\Sharon\\source\\repos\\BmatApplication\\BmatApplication\\Controllers\\AccountsController.cs",
-              "RelativeToolTip": "BmatApplication\\Controllers\\AccountsController.cs",
-              "ViewState": "AgIAAAQAAAAARjMzMzPrvxYAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T07:08:01.446Z",
+              "Title": "ListClients.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\Views\\Clients\\ListClients.cshtml",
+              "RelativeDocumentMoniker": "BmatApplication\\Views\\Clients\\ListClients.cshtml",
+              "ToolTip": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\Views\\Clients\\ListClients.cshtml",
+              "RelativeToolTip": "BmatApplication\\Views\\Clients\\ListClients.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-19T17:46:16.016Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RegisterVM.cs",
+              "DocumentMoniker": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\ViewModels\\RegisterVM.cs",
+              "RelativeDocumentMoniker": "BmatApplication\\ViewModels\\RegisterVM.cs",
+              "ToolTip": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\ViewModels\\RegisterVM.cs",
+              "RelativeToolTip": "BmatApplication\\ViewModels\\RegisterVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T19:37:15.813Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Sharon\\source\\repos\\BmatApplication\\BmatApplication\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "BmatApplication\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Sharon\\source\\repos\\BmatApplication\\BmatApplication\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "BmatApplication\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAA8AAAAgMzMzM1M4wCEAAAAJAAAAAAAAAA==",
+              "Title": "ClientsVM.cs",
+              "DocumentMoniker": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\ViewModels\\ClientsVM.cs",
+              "RelativeDocumentMoniker": "BmatApplication\\ViewModels\\ClientsVM.cs",
+              "ToolTip": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\ViewModels\\ClientsVM.cs",
+              "RelativeToolTip": "BmatApplication\\ViewModels\\ClientsVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T07:02:51.327Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-18T19:51:42.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\Program.cs",
+              "RelativeDocumentMoniker": "BmatApplication\\Program.cs",
+              "ToolTip": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\Program.cs",
+              "RelativeToolTip": "BmatApplication\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-18T09:25:07.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "BmatApplication\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "BmatApplication\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-18T07:19:25.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "BmatApplication\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "BmatApplication\\Controllers\\DashboardController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T22:20:22.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20250117220657_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\Migrations\\20250117220657_InitialCreate.cs",
+              "RelativeDocumentMoniker": "BmatApplication\\Migrations\\20250117220657_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\Migrations\\20250117220657_InitialCreate.cs",
+              "RelativeToolTip": "BmatApplication\\Migrations\\20250117220657_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T22:06:57.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BmatApplication.csproj",
+              "DocumentMoniker": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\BmatApplication.csproj",
+              "RelativeDocumentMoniker": "BmatApplication\\BmatApplication.csproj",
+              "ToolTip": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\BmatApplication.csproj",
+              "RelativeToolTip": "BmatApplication\\BmatApplication.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-17T08:53:53.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "BmatApplication\\Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\Models\\LoginModel.cs",
+              "RelativeToolTip": "BmatApplication\\Models\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T07:15:06.177Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Sharon\\source\\repos\\BmatApplication\\BmatApplication\\Views\\Accounts\\Login.cshtml",
-              "RelativeDocumentMoniker": "BmatApplication\\Views\\Accounts\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Sharon\\source\\repos\\BmatApplication\\BmatApplication\\Views\\Accounts\\Login.cshtml",
-              "RelativeToolTip": "BmatApplication\\Views\\Accounts\\Login.cshtml",
-              "ViewState": "AgIAAAIAAABAJTMzMzPrvzcAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-17T06:58:28.06Z",
-              "EditorCaption": ""
+              "Title": "AccountsController.cs",
+              "DocumentMoniker": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\Controllers\\AccountsController.cs",
+              "RelativeDocumentMoniker": "BmatApplication\\Controllers\\AccountsController.cs",
+              "ToolTip": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\Controllers\\AccountsController.cs",
+              "RelativeToolTip": "BmatApplication\\Controllers\\AccountsController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T07:08:01.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BmatApplication\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BmatApplication\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T07:02:51.327Z"
             }
           ]
         }
