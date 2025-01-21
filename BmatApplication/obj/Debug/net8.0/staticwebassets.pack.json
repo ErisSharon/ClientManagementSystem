@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\BmatApplication.wi04zwzg02.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\wwwroot\\Images\\background.jpg",
+      "PackagePath": "staticwebassets\\Images\\background.jpg"
+    },
+    {
       "Id": "C:\\Users\\Sharon\\ClientManagementSystem\\BmatApplication\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

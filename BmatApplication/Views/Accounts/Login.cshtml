@@ -14,6 +14,23 @@
             background-color: #f8f9fa;
         }
 
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* Prevent scrollbars */
+
+        body {
+            background-image: url('/images/background.jpg'); /* Path to your image */
+            background-size: contain; /* Ensures the image covers the entire viewport */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
+            background-position: center; /* Centers the image */
+            margin: 0; /* Removes default body margins */
+            height: 100vh; /* Ensures the body fills the viewport height */
+            overflow: hidden; /* Prevents scrollbars from appearing */
+        }
+
+
 
         .overlay {
             position: absolute;
@@ -23,15 +40,6 @@
             width: 50%; /* Adjust as needed */
             background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity */
             z-index: 1;
-        }
-
-        .styled-login-image {
-            width: 100%;
-            height: 120%;
-            background-position: center;
-            background-size: cover;
-            border-radius: 0px; /* Add rounded corners */
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
         }
 
         .card{
@@ -72,15 +80,10 @@
             margin-top: 160px;
         }
 
-        .login-background {
-            background-image: url('~/Images/Login-image.jpg'); 
-            background-size: cover;
-            background-position: center;
-        }
     </style>
 </head>
 <body class="login-background">
-    <img src="https://media.istockphoto.com/id/1442675553/photo/businessman-scans-fingerprint-to-unlock-security-system-internet-storage-and-financial.jpg?s=612x612&w=0&k=20&c=vPmw3Jf2Lewy5USajY1IqiHUz1TiKBDxSKiciP2tBwo=" alt="Login Image" class="styled-login-image">
+    <img src="/images/background.jpg" alt="Background Image" />
     <div class="container mt-5">
         <div class="row justify-content-center">
             <div class="col-md-6">

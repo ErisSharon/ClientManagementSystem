@@ -1,0 +1,20 @@
+﻿@model BmatApplication.Models.ClientsModel
+
+<h2>Manage Client</h2>
+
+<div class="card">
+    <div class="card-header">
+        <h4>Client Details</h4>
+    </div>
+    <div class="card-body">
+        <p><strong>Name:</strong> @Model.Name</p>
+        <p><strong>Product:</strong> @Model.Product</p>
+        <p><strong>Country:</strong> @Model.Country</p>
+        <p><strong>Status:</strong> @(Model.Status ? "Active" : "Inactive")</p>
+    </div>
+    <div class="card-footer">
+        <a asp-action="Edit" asp-route-id="@Model.ClientId" class="btn btn-warning">Edit</a>
+        <a asp-action="Disable" asp-route-id="@Model.ClientId" class="btn btn-danger">Disable</a>
+        <a asp-action="ChangeStatus" asp-route-id="@Model.ClientId" class="btn btn-secondary">Change Status</a>
+    </div>
+</div>

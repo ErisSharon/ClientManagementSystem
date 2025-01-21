@@ -11,7 +11,7 @@
             <h4>Add Client</h4>
         </div>
         <div class="card-body">
-            <form asp-action="Clients" asp-controller="ClientsController" method="post">
+            <form asp-action="AddClients" asp-controller="Clients" method="post">
                 <div class="row g-3">
                     <!-- Client Name -->
                     <div class="col-12">
@@ -30,8 +30,14 @@
                     <!-- Country -->
                     <div class="col-12">
                         <label asp-for="Country" class="form-label">Country</label>
-                        <input asp-for="Country" class="form-control" />
-                        <span asp-validation-for="Country" class="text-danger"></span>
+                        <select asp-for="Country" class="form-select">
+                            <option value="">Select Country</option>
+                            <option value="Kenya">Kenya</option>
+                            <option value="Rwanda">Rwanda</option>
+                            <option value="Burundi">Burundi</option>
+                            <option value="Uganda">Uganda</option>
+                            <option value="Ethiopia">Ethiopia</option>
+                        </select>
                     </div>
 
                     <!-- Status -->

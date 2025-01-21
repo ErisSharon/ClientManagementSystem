@@ -9,21 +9,22 @@ namespace BmatApplication.Models
         [Key]
         public int ClientId { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Name is required")]
         [MaxLength(100)]
         public string Name { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Product is required")]
         [MaxLength(100)]
         public string Product { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Country is required")]
         [MaxLength(100)]
         public string Country { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Status is required")]
         [MaxLength(50)]
         public bool Status { get; set; }
+
 
     }
 }

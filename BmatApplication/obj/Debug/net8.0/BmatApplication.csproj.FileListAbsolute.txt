@@ -505,10 +505,10 @@ C:\Users\Sharon\ClientManagementSystem\BmatApplication\obj\Debug\net8.0\staticwe
 C:\Users\Sharon\ClientManagementSystem\BmatApplication\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BmatApplication.props
 C:\Users\Sharon\ClientManagementSystem\BmatApplication\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BmatApplication.props
 C:\Users\Sharon\ClientManagementSystem\BmatApplication\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\Sharon\ClientManagementSystem\BmatApplication\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Sharon\ClientManagementSystem\BmatApplication\obj\Debug\net8.0\BmatAppl.807E4CE3.Up2Date
 C:\Users\Sharon\ClientManagementSystem\BmatApplication\obj\Debug\net8.0\BmatApplication.dll
 C:\Users\Sharon\ClientManagementSystem\BmatApplication\obj\Debug\net8.0\refint\BmatApplication.dll
 C:\Users\Sharon\ClientManagementSystem\BmatApplication\obj\Debug\net8.0\BmatApplication.pdb
 C:\Users\Sharon\ClientManagementSystem\BmatApplication\obj\Debug\net8.0\BmatApplication.genruntimeconfig.cache
 C:\Users\Sharon\ClientManagementSystem\BmatApplication\obj\Debug\net8.0\ref\BmatApplication.dll
+C:\Users\Sharon\ClientManagementSystem\BmatApplication\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -1,11 +1,9 @@
-﻿@model IEnumerable<BmatApplication.Models.ClientsModel>
+﻿@model BmatApplication.ViewModels.ClientsViewModel
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-
-<div class="container mt-5">
-    <!-- Clients Table -->
-    <table class="table table-bordered table-striped">
+<div class="container d-flex justify-content-center align-items-start" style="min-height: 100vh; overflow: auto; padding: 20px; margin-left: 250px;">
+    <table class="table table-bordered table-striped" style="width: 100%; max-width: 1000px;">
         <thead class="table-light">
             <tr>
                 <th>Client ID</th>
@@ -17,30 +15,26 @@
             </tr>
         </thead>
         <tbody>
-            @if (Model != null && Model.Any())
-            {
-                @foreach (var client in Model)
+           
+                @foreach (var client in Model.Clients)
                 {
                     <tr>
                         <td>@client.ClientId</td>
                         <td>@client.Name</td>
                         <td>@client.Product</td>
                         <td>@client.Country</td>
-                        <td>@(client.Status ? "Active" : "Inactive")</td>
+                        <td>@(client.Status)</td>
                         <td>
-                            <!-- Manage actions (e.g., Edit, Delete, etc.) -->
-                            <a href="@Url.Action("Edit", "Clients", new { id = client.ClientId })" class="btn btn-sm btn-primary">Edit</a>
-                            <a href="@Url.Action("Delete", "Clients", new { id = client.ClientId })" class="btn btn-sm btn-danger">Delete</a>
+                            <!-- Manage button or link -->
+                            <a href="@Url.Action("ManageClient", "Clients", new { id = client.ClientId })" class="btn btn-info">Manage</a>
                         </td>
                     </tr>
                 }
-            }
-            else
-            {
+         @* 
                 <tr>
                     <td colspan="6" class="text-center">No clients available</td>
                 </tr>
-            }
+            } *@
         </tbody>
     </table>
 </div>

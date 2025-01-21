@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BmatApplication.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250118093625_UpdateClientsModel1")]
-    partial class UpdateClientsModel1
+    [Migration("20250121123041_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
