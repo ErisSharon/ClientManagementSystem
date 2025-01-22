@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BmatApplication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+91de8b6cdb34307d069c55c5e76fa1e4306be228")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0f7568f749d7e87c5cfdf52b38209856fad16067")]
 [assembly: System.Reflection.AssemblyProductAttribute("BmatApplication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BmatApplication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

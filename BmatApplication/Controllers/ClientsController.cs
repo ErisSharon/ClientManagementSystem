@@ -77,8 +77,7 @@ public class ClientsController : Controller
         return View(model);
     }
 
-    
+   
 
-  
 }
 

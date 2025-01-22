@@ -23,7 +23,7 @@ namespace BmatApplication.Models
 
         [Required(ErrorMessage = "Status is required")]
         [MaxLength(50)]
-        public bool Status { get; set; }
+        public string Status { get; set; }
 
 
     }

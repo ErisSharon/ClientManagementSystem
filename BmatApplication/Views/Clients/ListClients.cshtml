@@ -8,8 +8,8 @@
             <tr>
                 <th>Client ID</th>
                 <th>Name</th>
-                <th>Product</th>
                 <th>Country</th>
+                <th>Product</th>
                 <th>Status</th>
                 <th>Manage</th>
             </tr>
@@ -21,13 +21,13 @@
                     <tr>
                         <td>@client.ClientId</td>
                         <td>@client.Name</td>
-                        <td>@client.Product</td>
                         <td>@client.Country</td>
+                        <td>@client.Product</td>
                         <td>@(client.Status)</td>
                         <td>
                             <!-- Manage button or link -->
-                            <a href="@Url.Action("ManageClient", "Clients", new { id = client.ClientId })" class="btn btn-info">Manage</a>
-                        </td>
+                        <a asp-controller="Clients" asp-action="ManageClients" asp-route-id="@client.ClientId">Manage</a>
+                    </td>
                     </tr>
                 }
          @* 

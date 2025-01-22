@@ -1,0 +1,96 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .product-card {
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+            .product-card:hover {
+                transform: scale(1.05);
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            }
+
+        .product-title {
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .product-description {
+            font-size: 0.9rem;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="text-center mb-4">
+            <h1 class="fw-bold">Our Products</h1>
+            <p>Explore the range of services we offer to simplify your financial operations.</p>
+        </div>
+        <div class="row g-4">
+            <!-- Mobile Money Card -->
+            <div class="col-md-6">
+                <div class="card product-card p-3">
+                    <div class="card-body text-center">
+                        <h5 class="product-title">Mobile Money</h5>
+                        <p class="product-description">
+                            Seamlessly manage payments and transactions through our reliable Mobile Money platform.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Agency Banking Card -->
+            <div class="col-md-6">
+                <div class="card product-card p-3">
+                    <div class="card-body text-center">
+                        <h5 class="product-title">Agency Banking</h5>
+                        <p class="product-description">
+                            Expand your financial services reach with our robust Agency Banking solutions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Internet Banking Card -->
+            <div class="col-md-6">
+                <div class="card product-card p-3">
+                    <div class="card-body text-center">
+                        <h5 class="product-title">Internet Banking</h5>
+                        <p class="product-description">
+                            Experience secure and convenient banking with our innovative Internet Banking platform.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Automated Clearing House Card -->
+            <div class="col-md-6">
+                <div class="card product-card p-3">
+                    <div class="card-body text-center">
+                        <h5 class="product-title">Automated Clearing House</h5>
+                        <p class="product-description">
+                            Speed up and automate your clearing processes with our advanced clearing house system.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

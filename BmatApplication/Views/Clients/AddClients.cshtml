@@ -20,13 +20,6 @@
                         <span asp-validation-for="Name" class="text-danger"></span>
                     </div>
 
-                    <!-- Product -->
-                    <div class="col-12">
-                        <label asp-for="Product" class="form-label">Product</label>
-                        <input asp-for="Product" class="form-control" />
-                        <span asp-validation-for="Product" class="text-danger"></span>
-                    </div>
-
                     <!-- Country -->
                     <div class="col-12">
                         <label asp-for="Country" class="form-label">Country</label>
@@ -37,7 +30,16 @@
                             <option value="Burundi">Burundi</option>
                             <option value="Uganda">Uganda</option>
                             <option value="Ethiopia">Ethiopia</option>
+                            <option value="Malawi">Malawi</option>
+
                         </select>
+                    </div>
+
+                    <!-- Product -->
+                    <div class="col-12">
+                        <label asp-for="Product" class="form-label">Product</label>
+                        <input asp-for="Product" class="form-control" />
+                        <span asp-validation-for="Product" class="text-danger"></span>
                     </div>
 
                     <!-- Status -->

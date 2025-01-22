@@ -17,26 +17,25 @@
             width: 250px;
             background-color: #008080;
             padding-top: 10px;
-            height: calc(100vh - 60px); /* Adjust height to exclude navbar height */
-            z-index: 1020; /* Lower z-index than navbar */
-            overflow-y: auto transition: all 0.3s;
+            height: calc(100vh - 60px); 
+            z-index: 1020; 
             color: white;
         }
 
         body {
             margin: 0;
             padding: 0;
-            overflow-x: hidden; /* Prevent horizontal scrolling */
+            overflow-x: hidden; 
         }
-        /* Navbar styles */
+        
         .navbar {
-            position: fixed; /* Keeps navbar at the top */
+            position: fixed;
             background-color: #008080;
             top: 0;
             left: 0;
             width: 100%;
-            z-index: 1030; /* Higher z-index ensures navbar stays above other elements */
-            height: 60px; /* Adjust as per your design */
+            z-index: 1030; 
+            height: 60px; 
         }
 
         .main-content {
@@ -51,18 +50,18 @@
         }
 
             .main-content table {
-                width: 100%; /* Make table responsive */
-                border-collapse: collapse; /* Merge table borders */
-                margin-top: 20px; /* Add spacing from other content */
+                width: 100%; 
+                border-collapse: collapse; 
+                margin-top: 20px; 
             }
 
             .main-content h1 {
-                margin: 0; /* Removes unnecessary margin on the header */
-                padding-bottom: 10px; /* Adds spacing between the header and table */
+                margin: 0; 
+                padding-bottom: 10px;
             }
 
         .content-wrapper {
-            height: 100vh; /* Full viewport height */
+            height: 100vh; /* Full viewport h
             overflow-y: auto; /* Enable scrolling only vertically */
             box-sizing: border-box; /* Includes padding in width/height calculations */
         }
