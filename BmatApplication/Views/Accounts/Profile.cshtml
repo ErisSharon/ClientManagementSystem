@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewData["Title"] = "User Profile";
+}
+
+<div class="container profile-container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body text-center">
+                    <img src="~/assets/img/default-profile.png" class="rounded-circle mb-3" style="width: 150px;" alt="Profile Picture">
+                    <h4 class="card-title">@Model.UserName</h4>
+                    <p class="card-text text-muted">@Model.Email</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Profile Details</h3>
+                </div>
+                <div class="card-body">
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control" value="@Model.Email" disabled>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Username</label>
+                            <input type="text" class="form-control" value="@Model.UserName" disabled>
+                        </div>
+                        <!-- Add more profile fields as needed -->
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

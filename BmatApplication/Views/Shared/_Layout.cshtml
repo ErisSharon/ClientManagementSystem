@@ -109,22 +109,45 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <button class="btn btn-outline-secondary me-3" onclick="toggleSidebar()">☰</button>
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">BmatApplication</a>
+              @*   <button class="btn btn-outline-secondary me-3" onclick="toggleSidebar()">☰</button>
+                  <a class="navbar-brand d-flex align-items-center" asp-area="" asp-controller="Home" asp-action="Index">
+                   </a> *@
+                <img src="assets/img/logo.png" alt="" style="height: 40px; margin-right: 10px;">
+                <span class="fw-bold text-primary">Client Track</span>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav me-auto">
+
+                    <div class="navbar-icons ms-auto d-flex align-items-center">
+                        <!-- Search Icon -->
+                        <form class="d-flex me-3" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+                            <button class="btn btn-outline-secondary" type="submit">
+                                <i class="bi bi-search"></i>
+                            </button>
+                        </form>
+                        <!-- Profile Icon -->
+                        <div class="dropdown">
+                            <a href="#" class="text-dark" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-person-circle fs-4"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item" asp-controller="Account" asp-action="Profile">Profile</a></li>
+                                <li><a class="dropdown-item" asp-controller="Account" asp-action="Logout">Logout</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    @* <ul class="navbar-nav me-auto">
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
-                    </ul>
-                    <div class="navbar-icons">
+                    </ul> *@
+                   @*  <div class="navbar-icons">
                         <!-- Search Icon -->
                         <form class="d-flex" role="search">
                             <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
@@ -140,7 +163,7 @@
                             <li><a class="dropdown-item" asp-controller="Account" asp-action="Profile">Profile</a></li>
                             <li><a class="dropdown-item" asp-controller="Account" asp-action="Logout">Logout</a></li>
                         </ul>
-                    </div>
+                    </div> *@
                 </div>
             </div>
         </nav>

@@ -73,6 +73,7 @@ public class ClientsController : Controller
             _context.Clients.Add(model);
             _context.SaveChanges();
             return RedirectToAction("ListClients");
+
         }
         return View(model);
     }
