@@ -12,9 +12,15 @@
         <p><strong>Product:</strong> @Model.Product</p>
         <p><strong>Status:</strong> @Model.Status</p>
     </div>
-    <div class="card-footer">
-        <a asp-action="Edit" asp-route-id="@Model.ClientId" class="btn btn-warning">Edit</a>
-        <a asp-action="Disable" asp-route-id="@Model.ClientId" class="btn btn-danger">Disable</a>
-        <a asp-action="ChangeStatus" asp-route-id="@Model.ClientId" class="btn btn-secondary">Change Status</a>
+    <div class="d-flex justify-content-start gap-2">
+        <form method="post" asp-action="Disable" asp-controller="Clients" asp-route-id="@Model.ClientId">
+            <button class="btn btn-warning">Disable</button>
+        </form>
+
+        <a href="@Url.Action("Edit", "Clients", new { id = Model.ClientId })" class="btn btn-primary">Edit</a>
+
+        <form method="post" asp-action="Delete" asp-controller="Clients" asp-route-id="@Model.ClientId" onsubmit="return confirm('Are you sure you want to delete this client?');">
+            <button class="btn btn-danger">Delete</button>
+        </form>
     </div>
 </div>

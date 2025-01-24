@@ -2,7 +2,7 @@
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<div class="container d-flex justify-content-center align-items-start" style="min-height: 100vh; overflow: auto; padding: 20px; margin-left: 250px;">
+<div class="container d-flex justify-content-center align-items-start" style="min-height: 100vh; overflow: auto; padding: 20px; margin-left: 200px;">
     <table class="table table-bordered table-striped" style="width: 100%; max-width: 1000px;">
         <thead class="table-light">
             <tr>
@@ -26,7 +26,9 @@
                         <td>@(client.Status)</td>
                         <td>
                             <!-- Manage button or link -->
-                        <a asp-controller="Clients" asp-action="ManageClients" asp-route-id="@client.ClientId">Manage</a>
+                        <a asp-controller="Clients" asp-action="ManageClients" asp-route-id="@client.ClientId" class="btn btn-outline-primary" aria-label="Manage">
+                            <i class="bi bi-gear"></i>
+                        </a>
                     </td>
                     </tr>
                 }

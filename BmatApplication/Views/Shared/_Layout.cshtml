@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/BmatApplication.styles.css" asp-append-version="true" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
     <style>
         /* Custom styles for sidebar */
         .sidebar {
@@ -15,7 +17,7 @@
             top: 60px;
             left: 0;
             width: 250px;
-            background-color: #008080;
+            background-color: #007bff;
             padding-top: 10px;
             height: calc(100vh - 60px); 
             z-index: 1020; 
@@ -124,9 +126,9 @@
                         <!-- Search Icon -->
                         <form class="d-flex me-3" role="search">
                             <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
-                            <button class="btn btn-outline-secondary" type="submit">
+                            @* <button class="btn btn-outline-secondary" type="submit">
                                 <i class="bi bi-search"></i>
-                            </button>
+                            </button> *@
                         </form>
                         <!-- Profile Icon -->
                         <div class="dropdown">
